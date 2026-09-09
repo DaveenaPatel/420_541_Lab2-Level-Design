@@ -844,8 +844,8 @@ Transform:
   m_GameObject: {fileID: 146231820}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.3, y: 4.7, z: -7.6}
-  m_LocalScale: {x: 6.251574, y: 10, z: 39.49998}
+  m_LocalPosition: {x: 21.3, y: 4.7, z: -3}
+  m_LocalScale: {x: 6.251574, y: 10, z: 30.49998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663387158}
@@ -2581,6 +2581,7 @@ GameObject:
   - component: {fileID: 535595294}
   - component: {fileID: 535595293}
   - component: {fileID: 535595292}
+  - component: {fileID: 535595296}
   m_Layer: 0
   m_Name: Trap (4)
   m_TagString: Untagged
@@ -2675,12 +2676,27 @@ Transform:
   m_GameObject: {fileID: 535595291}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 81.31, y: 1.1803477, z: -53.8}
+  m_LocalPosition: {x: 81.31, y: 4.7, z: -53.8}
   m_LocalScale: {x: 10, y: 10, z: 7.4986}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663387158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &535595296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535595291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ee24d75717c1c4dbfecd8fdd1f4d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectMover
+  timer: 0
+  directionChangeDelay: 2
+  movement: {x: 0, y: 1, z: 0}
 --- !u!1 &663387157
 GameObject:
   m_ObjectHideFlags: 0
@@ -3268,6 +3284,7 @@ GameObject:
   - component: {fileID: 717181582}
   - component: {fileID: 717181581}
   - component: {fileID: 717181580}
+  - component: {fileID: 717181584}
   m_Layer: 0
   m_Name: Trap (5)
   m_TagString: Untagged
@@ -3362,12 +3379,27 @@ Transform:
   m_GameObject: {fileID: 717181579}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85.4, y: 1.1803477, z: -41.31}
+  m_LocalPosition: {x: 85.4, y: 4.7, z: -41.31}
   m_LocalScale: {x: 10, y: 10, z: 7.4986}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663387158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &717181584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717181579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ee24d75717c1c4dbfecd8fdd1f4d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectMover
+  timer: 0
+  directionChangeDelay: 2
+  movement: {x: 0, y: -1, z: 0}
 --- !u!1 &750473207
 GameObject:
   m_ObjectHideFlags: 0
@@ -4730,6 +4762,7 @@ GameObject:
   - component: {fileID: 1145445758}
   - component: {fileID: 1145445757}
   - component: {fileID: 1145445756}
+  - component: {fileID: 1145445760}
   m_Layer: 0
   m_Name: Trap (7)
   m_TagString: Untagged
@@ -4824,12 +4857,27 @@ Transform:
   m_GameObject: {fileID: 1145445755}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 81.31, y: 1.1803477, z: -72.72}
+  m_LocalPosition: {x: 81.31, y: 4.7, z: -72.72}
   m_LocalScale: {x: 10, y: 10, z: 7.4986}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663387158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145445760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145445755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ee24d75717c1c4dbfecd8fdd1f4d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectMover
+  timer: 0
+  directionChangeDelay: 2
+  movement: {x: 0, y: 1, z: 0}
 --- !u!1 &1174704018
 GameObject:
   m_ObjectHideFlags: 0
@@ -6344,6 +6392,7 @@ GameObject:
   - component: {fileID: 1583751676}
   - component: {fileID: 1583751675}
   - component: {fileID: 1583751674}
+  - component: {fileID: 1583751678}
   m_Layer: 0
   m_Name: Trap (6)
   m_TagString: Untagged
@@ -6438,12 +6487,27 @@ Transform:
   m_GameObject: {fileID: 1583751673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85.4, y: 1.1803477, z: -64.02}
+  m_LocalPosition: {x: 85.4, y: 4.7, z: -64.02}
   m_LocalScale: {x: 10, y: 10, z: 7.4986}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663387158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1583751678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583751673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ee24d75717c1c4dbfecd8fdd1f4d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectMover
+  timer: 0
+  directionChangeDelay: 2
+  movement: {x: 0, y: -1, z: 0}
 --- !u!1 &1727553844
 GameObject:
   m_ObjectHideFlags: 0
@@ -7597,8 +7661,8 @@ Transform:
   m_GameObject: {fileID: 1862635513}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 52, y: 4.7, z: 2.9}
-  m_LocalScale: {x: 6.251574, y: 10, z: 53.499977}
+  m_LocalPosition: {x: 52, y: 4.7, z: 6.9}
+  m_LocalScale: {x: 6.251574, y: 10, z: 45.49998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663387158}
